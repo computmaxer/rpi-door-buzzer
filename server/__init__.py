@@ -18,7 +18,7 @@ def index():
 def unlock():
     buzzer = OutputDevice(17)
     buzzer.on()
-    sleep(2)
+    sleep(3)
     buzzer.off()   
     return redirect('/')
 
