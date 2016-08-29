@@ -1,0 +1,5 @@
+[program:door]
+command=/usr/bin/python2.7 /home/pi/rpi-door-buzzer/server/__init__.py
+autostart=true
+autorestart=true
+
